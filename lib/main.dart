@@ -96,7 +96,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("")),
+      appBar: AppBar(title: Text("hello")),
       body: listproduct.length == 0
           ? CircularProgressIndicator()
           : ListView.builder(
